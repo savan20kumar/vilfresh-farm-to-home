@@ -1,21 +1,12 @@
-import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
-import HowItWorks from "@/components/HowItWorks";
-import ProductCategories from "@/components/ProductCategories";
-import ImpactSection from "@/components/ImpactSection";
-import AppSection from "@/components/AppSection";
-import Footer from "@/components/Footer";
+// Update this page (the content is just a fallback if you fail to update the page)
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
-      <Header />
-      <HeroSection />
-      <HowItWorks />
-      <ProductCategories />
-      <ImpactSection />
-      <AppSection />
-      <Footer />
+    <div className="min-h-screen flex items-center justify-center bg-background">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
+        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+      </div>
     </div>
   );
 };
