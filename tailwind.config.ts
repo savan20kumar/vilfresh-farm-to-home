@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// VilFresh Brand Colors
+				'fresh-green': 'hsl(var(--fresh-green))',
+				'fresh-green-light': 'hsl(var(--fresh-green-light))',
+				'earth-brown': 'hsl(var(--earth-brown))',
+				'earth-brown-light': 'hsl(var(--earth-brown-light))',
+				'cream': 'hsl(var(--cream))',
+				'warm-orange': 'hsl(var(--warm-orange))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
