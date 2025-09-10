@@ -59,6 +59,12 @@ export default {
 				'earth-brown-light': 'hsl(var(--earth-brown-light))',
 				'cream': 'hsl(var(--cream))',
 				'warm-orange': 'hsl(var(--warm-orange))',
+				// Additional colors for Products page
+				'success': {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				'earth': 'hsl(var(--earth-brown))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -96,6 +102,10 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			boxShadow: {
+				'card': '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)',
+				'hover': '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)'
 			}
 		}
 	},

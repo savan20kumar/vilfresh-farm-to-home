@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import dairyImage from "@/assets/dairy-products.jpg";
 import groceryImage from "@/assets/grocery-basket.jpg";
 
@@ -84,10 +85,12 @@ const ProductCategories = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button variant="fresh" size="lg">
-            View All Products
-            <ArrowRight className="w-5 h-5 ml-2" />
-          </Button>
+          <Link to="/products">
+            <Button variant="fresh" size="lg">
+              View All Products
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

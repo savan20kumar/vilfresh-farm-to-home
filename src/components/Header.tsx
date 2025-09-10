@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { Smartphone, Menu } from "lucide-react";
 
 const Header = () => {
@@ -17,7 +18,7 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#home" className="text-foreground hover:text-fresh-green transition-colors">Home</a>
-            <a href="#products" className="text-foreground hover:text-fresh-green transition-colors">Products</a>
+            <a href="/products" className="text-foreground hover:text-fresh-green transition-colors">Products</a>
             <a href="#impact" className="text-foreground hover:text-fresh-green transition-colors">Impact</a>
             <a href="#about" className="text-foreground hover:text-fresh-green transition-colors">About</a>
           </nav>

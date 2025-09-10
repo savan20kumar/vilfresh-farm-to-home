@@ -43,6 +43,8 @@ All colors MUST be HSL.
     --earth-brown-light: 25 25% 88%;
     --cream: 42 35% 95%;
     --warm-orange: 35 80% 65%;
+    --success: 120 50% 35%;
+    --success-foreground: 0 0% 98%;
 
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(120 40% 25%), hsl(25 45% 35%));
